@@ -84,8 +84,6 @@ class NaiveBayesBot:
         for key in cumulative: #searching for the maximum key
             if cumulative[key] > best:
                 best = int(key)
-            if cumulative[key] == best:
-                return self.answers.__getitem__(len(self.answers) - 1) #two have tied so ask again
         if best == 0:
             return self.answers.__getitem__(len(self.answers)-1) #no good match to ask again
         return self.answers.__getitem__(best-1) #answer with the best match
