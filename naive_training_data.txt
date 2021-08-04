@@ -1,0 +1,60 @@
+hello there 1
+hi 1
+hey good morning 1
+good day 1
+are you there? 1
+hey there 1
+
+who are you 2
+what is your name 2
+who am I talking to 2
+who is talking 2
+
+I need help 3
+help with my account 3
+can you help 3
+I need some assistance 3
+what can you help with 3
+what can you do for me 3
+could you help me out 3
+
+I need to make a new account 4
+I don't have an account 4
+I have no account 4
+I am a new user 4
+I want to get started 4
+start an account 4
+I need help setting up 4
+I want to set up an account 4
+need to open account 4
+
+I lost my passord 5
+I lost my username 5
+help change passord 5
+I don't know my passcode 5
+I can not log in 5
+I want to recover my account 5
+I forgot my password 5
+I fogot my usename 5
+can not get into my account 5
+I can not log in 5
+
+I want to file a complaint 6
+I'm not happy 6
+I want to talk to a human 6
+Let me talk to your manager 6
+It did not work 6
+This is not working 6
+
+Thanks for your help 7
+Thank you 7
+I appreciate it 7
+that's helpful 7
+thanks 7
+
+goodbye 8
+how do I leave 8
+I'm leaving now 8
+see you later 8
+bye 8
+I need to go 8
