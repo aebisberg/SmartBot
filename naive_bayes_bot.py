@@ -4,6 +4,7 @@
 #Use formulate_response(input_text) to recieve a response to a query
 
 import re
+import string
 from collections import defaultdict
 
 class NaiveBayesBot:
@@ -69,8 +70,10 @@ class NaiveBayesBot:
         return p_of_class
 
     def formulate_response(self, input_text):
+        input_text.translate(str.maketrans('', '', string.punctuation))
         split_text = list(input_text.strip().split(" "))
         cumulative = defaultdict()
+
         for word in split_text:
             #get the bayes distribution of each word
             answer_probs = self.__bayes_distribution__(word)
@@ -79,8 +82,12 @@ class NaiveBayesBot:
                 if key not in cumulative.keys():
                     cumulative[key] = answer_probs[key]
                 else:
-                    cumulative[key] += answer_probs[key]
+                    if cumulative[key] == 0.0:
+                        cumulative[key] = answer_probs[key]
+                    else:
+                        cumulative[key] = cumulative[key] * answer_probs[key]
         best = 0
+
         for key in cumulative: #searching for the maximum key
             if cumulative[key] > best:
                 best = int(key)
