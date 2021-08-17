@@ -1,0 +1,35 @@
+{
+    "greet": [
+        "hi",
+        "hello",
+        "hey",
+        "hola"
+    ],
+    "goodbye": [
+        "bye",
+        "goodbye",
+        "good bye"
+    ],
+    "thanks": [
+        "Thanks", "Thank you", "That's helpful", "Thanks for the help"
+    ],
+    "about": [
+        "Who are you?", "What are you?", "Who you are?"
+    ],
+    "name": [
+        "what is your name", "what should I call you", "whats your name?"
+    ],
+    "help": [
+            "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?",
+        "I need a support", "I need a help", "support me please"
+        ],
+    "createaccount" : [
+        "I need to create a new account", "how to open a new account", "I want to create an account",
+        "can you create an account for me", "how to open a new account"
+    ],
+    "complaint": [
+        "have a complaint", "I want to raise a complaint", "there is a complaint about a service"
+    ]
+}
+
+

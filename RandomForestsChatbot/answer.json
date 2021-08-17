@@ -1,0 +1,10 @@
+{
+    "greet": "Hello there...!",
+    "goodbye": "Bye see you later",
+    "thanks": "Happy to help!",
+    "about": "I'm SmartBot, an Artificial Intelligent bot",
+    "name": "You can call me SmartBot",
+    "help": "Tell me how can assist you",
+    "createaccount": "I need to create a new account",
+    "complaint": "Please provide us your complaint in order to assist you"
+}
