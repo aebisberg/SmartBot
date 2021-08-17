@@ -1,9 +1,0 @@
-Hi, welcome to the site.
-My name is SmartBot.
-Okay, how can I help you today?
-Okay, to make a new account please follow this link. Is there anything else you need?
-If you need to reset you username or passcode please use this link.
-I'm sorry you are not satisfied. Please use this link to send a note to our team.
-You're welcome! Is there anything else I can help with?
-Goodbye, feel free to type "exit" whenever you're ready to leave.
-I don't understand what you're asking. Could you try asking differently?
