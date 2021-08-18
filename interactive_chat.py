@@ -8,7 +8,7 @@ import naive_bayes_bot
 import neural_net_bot
 
 chat_bot_usage = "To run the chat bot please input program name and desired bot type: " \
-                 "--neuralnet1 --naivebayes --neuralnet2 or --randomforest"
+                 "--neuralnet --naivebayes"
 
 def check_arguments():
     n = len(sys.argv)
@@ -17,12 +17,8 @@ def check_arguments():
         exit()
     if sys.argv[1] == "--naivebayes":
         return naive_bayes_bot.NaiveBayesBot()
-    if sys.argv[1] == "--neuralnet1":
+    if sys.argv[1] == "--neuralnet":
         return neural_net_bot.NeuralNetBot()
-    if sys.argv[1] == "--neuralnet2":
-        return
-    if sys.argv[1] == "--randomforest":
-        return
     else:
         print(chat_bot_usage)
         exit()
